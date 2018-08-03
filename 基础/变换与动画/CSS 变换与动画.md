@@ -3,7 +3,7 @@
 
 # GPU Animation
 - [GPU Animation: Doing It Right](https://www.smashingmagazine.com/2016/12/gpu-animation-doing-it-right/)
-- [一篇文章说清浏览器解析和CSS（GPU）动画优化](https://segmentfault.com/a/1190000008015671?utm_source=weekly&utm_medium=email&utm_campaign=email_weekly)
+- [一篇文章说清浏览器解析和CSS(GPU)动画优化](https://segmentfault.com/a/1190000008015671?utm_source=weekly&utm_medium=email&utm_campaign=email_weekly)
 - [精选！CSS 动画之工具、框架和教程](https://zhuanlan.zhihu.com/p/24931899)
 
 # CSS-Animation&Transition
@@ -17,7 +17,7 @@ CSS3 提供了    `transition` 过渡、    `transform 变换`和    `animation 
 W3C对css transition 的定义是允许css属性值在指定的持续时间内发生平滑地变化。而mozilla上介绍它是transition-property, transition-duration, transition-timing-function和transition-delay的简写属性，它允许定义一个元素两个状态之间的过渡过程。不同的状态可以通过像:hover或:active这样的伪类来定义，还可以使用JavaScript来动态地设置。Transition的基本语法如下所示：
 
 ``` 
-transition ： transition-property transition-duration transition-timing-function transition-delay [, ...]
+transition : transition-property transition-duration transition-timing-function transition-delay [, ...]
 ```
 
 - transition-property
@@ -26,11 +26,11 @@ transition ： transition-property transition-duration transition-timing-functio
 
 - transition-duration
 
-动画执行的持续时间，单位为 s（秒） 或者 ms（毫秒） 。
+动画执行的持续时间，单位为 s(秒) 或者 ms(毫秒) 。
 
 - transition-timing-function
 
-变换速率效果，可选值为 ease|linear|ease-in|ease-out|ease-in-out|cubic-bezier（自定义时间曲线） 。
+变换速率效果，可选值为 ease|linear|ease-in|ease-out|ease-in-out|cubic-bezier(自定义时间曲线) 。
 
 - transition-delay
 
@@ -65,7 +65,7 @@ transform 分为2D 和 3D。
 
 ### 2D
 
-其主要包含以下几种变换：    旋转rotate、扭曲skew、缩放scale和移动translate以及矩阵变形matrix，语法如下：  
+其主要包含以下几种变换:    旋转rotate、扭曲skew、缩放scale和移动translate以及矩阵变形matrix，语法如下:  
 
 ``` 
 transform: rotate | scale | skew | translate |matrix;
@@ -77,7 +77,7 @@ transform: rotate | scale | skew | translate |matrix;
   
   ，正数表示顺时针旋转，负数表示逆时针旋转。      
   
-  DEMO：      [http://codepen.io/CodingMonkeyzh/pen/XbNYOa](http://codepen.io/CodingMonkeyzh/pen/XbNYOa)
+  DEMO:      [http://codepen.io/CodingMonkeyzh/pen/XbNYOa](http://codepen.io/CodingMonkeyzh/pen/XbNYOa)
   
 - scale 缩放      
   
@@ -93,7 +93,7 @@ transform: rotate | scale | skew | translate |matrix;
   
   对一个方向进行设置。      
   
-  DEMO：      [http://codepen.io/CodingMonkeyzh/pen/doOKrg](http://codepen.io/CodingMonkeyzh/pen/doOKrg)
+  DEMO:      [http://codepen.io/CodingMonkeyzh/pen/doOKrg](http://codepen.io/CodingMonkeyzh/pen/doOKrg)
   
 - skew 扭曲      
   
@@ -105,25 +105,25 @@ transform: rotate | scale | skew | translate |matrix;
   
   表示水平方向倾斜30度，垂直方向倾斜10度。      
   
-  DEMO：      [http://codepen.io/CodingMonkeyzh/pen/KpNeYg](http://codepen.io/CodingMonkeyzh/pen/KpNeYg)
+  DEMO:      [http://codepen.io/CodingMonkeyzh/pen/KpNeYg](http://codepen.io/CodingMonkeyzh/pen/KpNeYg)
   
 - translate 偏移      
   
   偏移同样包括水平偏移和垂直偏移。      `translate(x,y)`
   
-  水平方向和垂直方向同时移动（也就是X轴和Y轴同时移动）；      `translateX(x)`
+  水平方向和垂直方向同时移动(也就是X轴和Y轴同时移动)；      `translateX(x)`
   
-  仅水平方向移动（X轴移动）；      `translateY(Y)`
+  仅水平方向移动(X轴移动)；      `translateY(Y)`
   
-  仅垂直方向移动（Y轴移动）。      
+  仅垂直方向移动(Y轴移动)。      
   
-  DEMO：      [http://codepen.io/CodingMonkeyzh/pen/waoXbB](http://codepen.io/CodingMonkeyzh/pen/waoXbB)
+  DEMO:      [http://codepen.io/CodingMonkeyzh/pen/waoXbB](http://codepen.io/CodingMonkeyzh/pen/waoXbB)
 
 ## Animation
 
 ### Keyframes
 
-CSS3 中的 animation 是通过一个叫    `Keyframes 关键帧`的玩意来控制的，他的命名是由"@keyframes"开头，后面紧接着是这个“动画的名称”加上一对花括号“{}”，括号中就是一些不同时间段样式规则，有点像我们css的样式写法一样。对于一个"@keyframes"中的样式规则是由多个百分比构成的，如“0%”到"100%"之间，语法如下：  
+CSS3 中的 animation 是通过一个叫    `Keyframes 关键帧`的玩意来控制的，他的命名是由"@keyframes"开头，后面紧接着是这个“动画的名称”加上一对花括号“{}”，括号中就是一些不同时间段样式规则，有点像我们css的样式写法一样。对于一个"@keyframes"中的样式规则是由多个百分比构成的，如“0%”到"100%"之间，语法如下:  
 
 ``` 
 @keyframes IDENT {
@@ -138,7 +138,7 @@ CSS3 中的 animation 是通过一个叫    `Keyframes 关键帧`的玩意来控
   }
 }
 
-或者全部写成百分比的形式： 
+或者全部写成百分比的形式: 
 @keyframes IDENT {
   0% {
     Properties: Properties value;
@@ -163,7 +163,7 @@ animation 属性是一个简写属性，用于设置动画属性：
 
 Keyframename：规定需要绑定到选择器的    keyframe     的名称。  
 
-None： 规定无动画效果（可用于覆盖来自级联的动画）。
+None: 规定无动画效果(可用于覆盖来自级联的动画)。
 
 例如：
 
@@ -171,9 +171,9 @@ None： 规定无动画效果（可用于覆盖来自级联的动画）。
 
 -webkit-animation-name: my_animation;
 
--moz-animation-name    ：    my_animation;  
+-moz-animation-name    :    my_animation;  
 
--ms-animation-name    ：    my_animation;  
+-ms-animation-name    :    my_animation;  
 
 -o-animation-name: my_animation;
 
@@ -195,7 +195,7 @@ animation-name: my_animation;
 
 语法：animation-duration: time;
 
-time ： 规定完成动画所花费的时间。默认值是 0，意味着没有动画效果。
+time : 规定完成动画所花费的时间。默认值是 0，意味着没有动画效果。
 
 例如：
 
@@ -203,9 +203,9 @@ time ： 规定完成动画所花费的时间。默认值是 0，意味着没有
 
 -webkit-animation-duration: 2s;
 
--moz-animation-duration    ：    2s;  
+-moz-animation-duration    :    2s;  
 
--ms-animation-duration    ：    2s;  
+-ms-animation-duration    :    2s;  
 
 -o-animation-duration: 2s;
 
@@ -215,7 +215,7 @@ animation--duration: 2s;
 
 3. animation-timing-function----规定动画的速度曲线
 
-语法：    animation-timing-function: value;  
+语法:    animation-timing-function: value;  
 
 Value    值    :  
 
@@ -245,7 +245,7 @@ cubic-bezier(n,n,n,n)：在    cubic-bezier     函数中自己的值。可能�
 
 4. animation-delay----规定在动画开始之前的延迟
 
-语法：    animation-delay: time;  
+语法:    animation-delay: time;  
 
 Time    值：可选。定义动画开始前等待的时间，以秒或毫秒计。默认值是     0    。允许负值，    -2s     使动画马上开始，但跳过     2     秒进入动画。  
 
@@ -259,7 +259,7 @@ animation-delay:2s;
 
 5. animation-iteration-count----规定动画应该播放的次数
 
-语法：    animation-iteration-count: n|infinite;  
+语法:    animation-iteration-count: n|infinite;  
 
 n：定义动画播放次数的数值。
 
@@ -277,7 +277,7 @@ animation-iteration-count:infinite;
 
 6. animation-direction----规定是否应该轮流反向播放动画
 
-语法：    animation-direction: normal|alternate;  
+语法:    animation-direction: normal|alternate;  
 
 normal    ：默认值。动画应该正常播放。  
 
@@ -297,7 +297,7 @@ animation-direction:alternate;
 
 7. animation-play-state 属性规定动画正在运行还是暂停
 
-语法：    animation-play-state: paused|running;  
+语法:    animation-play-state: paused|running;  
 
 paused    ：规定动画已暂停。  
 
@@ -317,13 +317,13 @@ animation-play-state:running;
 
 8. animation-fill-mode 属性规定动画在播放之前或之后，其动画效果是否可见
 
-语法：    animation-fill-mode : none | forwards | backwards | both;  
+语法:    animation-fill-mode : none | forwards | backwards | both;  
 
 none    ：不改变默认行为。  
 
-forwards ：当动画完成后，保持最后一个属性值（在最后一个关键帧中定义）。
+forwards ：当动画完成后，保持最后一个属性值(在最后一个关键帧中定义)。
 
-backwards    ：在     animation-delay     所指定的一段时间内，在动画显示之前，应用开始属性值（在第一个关键帧中定义）。  
+backwards    ：在     animation-delay     所指定的一段时间内，在动画显示之前，应用开始属性值(在第一个关键帧中定义)。  
 
 both ：向前和向后填充模式都被应用。
 

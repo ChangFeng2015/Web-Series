@@ -1,4 +1,4 @@
-[![返回目录](https://parg.co/UYp)](https://parg.co/Ubt)
+[![返回目录](https://parg.co/UYp)](https://github.com/wxyyxc1992/Web-Series/)
 
 # JavaScript 代码调试实战
 
@@ -420,7 +420,7 @@ console.error('错误');
 console.warn('警告');
 ```
 
-console 上述的集中度支持 printf 的占位符格式，支持的占位符有：字符（%s）、整数（%d 或%i）、浮点数（%f）和对象（%o）
+console 上述的集中度支持 printf 的占位符格式，支持的占位符有：字符(%s)、整数(%d 或%i)、浮点数(%f)和对象(%o)
 
 ```
 <script type="text/javascript">
@@ -439,7 +439,7 @@ console.log("第一组第一条:我的博客(http://www.ido321.com)");
 console.log("第一组第二条:CSDN(http://blog.csdn.net/u011043843)");
 console.groupEnd();
 console.group("第二组信息");
-console.log("第二组第一条:程序爱好者QQ群： 259280570");
+console.log("第二组第一条:程序爱好者QQ群: 259280570");
 console.log("第二组第二条:欢迎你加入");
 console.groupEnd();
 ```
@@ -514,7 +514,7 @@ console.time()和 console.timeEnd()，用来显示代码的运行时间。
 ```
 
 ![](http://www.ido321.com/wp-content/uploads/2014/09/7.jpg)
-console.profile()的性能分析性能分析（Profiler）就是分析程序各个部分的运行时间，找出瓶颈所在，使用的方法是 console.profile()。
+console.profile()的性能分析性能分析(Profiler)就是分析程序各个部分的运行时间，找出瓶颈所在，使用的方法是 console.profile()。
 
 ```js
    function All(){
